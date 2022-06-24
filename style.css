@@ -1,0 +1,106 @@
+body{
+    margin: 0px;
+}
+#first-id{
+    color: blue;
+}
+#three-id{
+    color: green;
+}
+.red{
+    border:2px solid red;
+}
+.green{
+    border:2px solid rgb(214, 248, 22);
+}
+.banner{
+    height:500px;
+    padding:20px;
+    background: url('./anh/img.png') center center no-repeat;
+    
+}
+.about-login{
+    text-align: right;
+    height: 80px;
+    width: 100%;
+}
+.about, 
+    .sign-in{
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-block;
+      padding: 10px 15px;
+      text-transform: uppercase;
+    }
+    .sign-in{
+        margin-right: 100px;
+        margin-left: 25px;
+        border-radius: 50px;
+        border: 2px solid green;
+      } 
+    .logo {
+        background: url(./anh/logofpt.png) center center no-repeat;
+        margin-top: 80px;
+        height: 151px;
+      }
+      .content-center{
+        margin-top: 200px;
+        border: 1px solid red;
+      }
+      .left, .center, .right{
+        display: inline-block;
+        width:33%;
+        text-align: center;
+        font-size:40px;
+        color:red;
+        
+      }
+      img{
+        font-size:20px;
+      }
+/* .about{
+    display: inline-block; 
+    text-transform: uppercase;
+}*/
+
+
+.text {
+    text-align: center;
+    color: maroon;
+    font-size: 37px;
+    margin-top: 207px;
+  }
+  .but-start-now{
+    text-align: center;
+    padding-top: 29px;
+  }
+  .but-start-now button{
+    color: dodgerblue;
+    font-size: 26px;
+    background-color: chartreuse;
+    border-color: greenyellow;
+    border-width: 4px;
+    border-radius: 20px;
+    padding: 10px 70px;
+    cursor: pointer;    
+  }
+
+img{
+    height: 40px;
+    
+}
+.content-center span{ display: block  ;}
+
+.content-center-2 {
+    text-align: center;
+}
+.content-center-2 button{
+    color: dodgerblue;
+    font-size: 26px;
+    background-color: chartreuse;
+    border-color: greenyellow;
+    border-width: 4px;
+    border-radius: 20px;
+    padding: 10px 70px;
+    cursor: pointer;   
+  }

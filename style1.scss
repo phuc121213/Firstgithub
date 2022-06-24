@@ -1,0 +1,104 @@
+body{ 
+  margin:0 !important;
+  padding:0 !important;
+
+}
+.banner{
+    height:500px;
+    padding:20px;
+    background: url('./anh/img.png') center center no-repeat;
+
+  .about-login{
+    text-align: right;
+    height: 80px;
+    width: 100%;
+
+    .about, 
+    .sign-in{
+      text-decoration: none;
+      margin-top: 10px;
+      display: inline-block;
+      padding: 10px 15px;
+      text-transform: uppercase;
+    }
+
+    .sign-in{
+      margin-right: 100px;
+      margin-left: 25px;
+      border-radius: 50px;
+      border: 2px solid green;
+    } 
+  }
+  .logo {
+    background: url(./anh/logofpt.png) center center no-repeat;
+    margin-top: 80px;
+    height: 151px;
+  }
+  .content-center{
+    margin-top: 200px;
+    border: 1px solid red;
+
+    .left, .center, .right{
+      display: inline-block;
+      width:33%;
+      text-align: center;
+      font-size:40px;
+      color:red;
+      img{
+        font-size:20px;
+      }
+    }
+    span{ display: block  ;}
+  }
+  .text {
+    text-align: center;
+    color: maroon;
+    font-size: 37px;
+    margin-top: 207px;
+  }
+  .but-start-now{
+    text-align: center;
+    padding-top: 29px;
+
+    button{
+      color: dodgerblue;
+      font-size: 26px;
+      background-color: chartreuse;
+      border-color: greenyellow;
+      border-width: 4px;
+      border-radius: 20px;
+      padding: 10px 70px;
+      cursor: pointer;    
+    }
+  }
+  .content-center-2{ 
+    text-align: center;
+
+    button{
+      color:yellow; 
+  }
+  }
+  
+}
+
+
+
+
+
+
+// sass làm tổ 
+// nav {
+//     ul {
+//       margin: 0;
+//       padding: 0;
+//       list-style: none;
+//     }
+//     li {
+//       display: inline-block;
+//     }
+//     a {
+//       display: block;
+//       padding: 6px 12px;
+//       text-decoration: none;
+//     }
+//   } 
